@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body style="padding: 30px">
+        <div class="navbars">
+            <a href="Index.html">Home</a>
+            <a href="comparison.html">Comparison</a>
+            <div class="dropdowns">
+              <button class="dropbtns">Select Chart
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-contents">
+                <a href="maxtemp.html">Max Temperature</a>
+                <a href="humidity.html">Humidity</a>
+                <a href="cloudiness.html">Cloudiness</a>
+                <a href="windspeed.html">Windspeed</a>
+              </div>
+            </div>
+            <a href="Data.html">Data</a>
+          </div>
+
+
+          <br>
+          <h1>Project Summary</h1>
+
+          <div>
+                  <a target = "blank" href="Resources/assets/images/Fig1.png"><img class="thumbnail2" id="floated" Style ="align-items: center;" alt="Fig1" src="Resources/assets/images/Fig1.png"/></a>
+                  <p>
+                    In this project, I tried to analyze weather patterns (Temperature, humidity, cloudiness & windspeed) base on the cities location from the equator. To accomplish this analysis, we collect data from the OpenWeatherAPI to create datasets of over 500 cities. 
+                  </p>
+                  <p>
+                    Once the data is assembled, I used Matplotlib to plot different measures of weather vs latitute including Temperature, humidity, cloudiness & windspeed. This site provide visualization of the data as well as analysis of each measure. 
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+            <br>
+
+            <h1>Visualization</h1>
+            <div class="row">
+              <div class="col-md-2">
+                <a target = "blank" href="maxtemp.html"><img class = "thumbnail" alt="Fig1" src="Resources/assets/images/Fig1.png" /></a>
+              </div>
+              <div class="col-md-2">
+                <a target = "blank" href="humidity.html"><img class = "thumbnail" alt="Fig2" src="Resources/assets/images/Fig2.png" /></a>
+              </div>
+              <div class="col-md-2">
+                <a target = "blank" href="cloudiness.html"><img class = "thumbnail" alt="Fig3" src="Resources/assets/images/Fig3.png" /></a>
+              </div>
+              <div class="col-md-2">
+                <a target = "blank" href="windspeed.html"><img class = "thumbnail" alt="Fig4" src="Resources/assets/images/Fig4.png" /></a>
+              </div>
+            </div>
+            </div>
+
+    </body>
+</html>
